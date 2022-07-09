@@ -27,6 +27,7 @@ jobs:
           restore-keys: |
             format-${{ runner.os }}-tox-
       - run: python -m pip install tox
+      - run: echo ${{ github.head_ref }}
       - if: github.event.schedule || inputs.rm_tox_dir
         run: rm -rf .tox/checkformatting
       - run: tox -e checkformatting
