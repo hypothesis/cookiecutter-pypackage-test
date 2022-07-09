@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       rm_tox_dir:
-        description: 'Delete and recreate the cached .tox dir'
+        description: 'Delete and recreate cached .tox dir'
         type: boolean
         required: true
         default: false
