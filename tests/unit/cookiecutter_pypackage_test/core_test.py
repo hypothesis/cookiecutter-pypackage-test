@@ -1,4 +1,4 @@
-from cookiecutter_pypackage_test.main import hello_world
+from cookiecutter_pypackage_test.core import hello_world
 
 
 class TestHelloWorld:
