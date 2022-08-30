@@ -10,6 +10,10 @@ A test package for our pypackage cookiecutter.
 
 ## Installing
 
+foobar
+barfoo
+dxch
+
 We recommend using [pipx](https://pypa.github.io/pipx/) to install
 cookiecutter-pypackage-test.
 First [install pipx](https://pypa.github.io/pipx/#install-pipx) then run:
