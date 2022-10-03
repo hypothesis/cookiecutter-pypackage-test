@@ -1,8 +1,11 @@
-from importlib.metadata import version
-
 import pytest
 
 from cookiecutter_pypackage_test.cli import cli
+
+try:
+    from importlib.metadata import version
+except ModuleNotFoundError:
+    from importlib_metadata import version
 
 
 def test_it():
