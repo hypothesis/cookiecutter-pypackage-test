@@ -65,7 +65,7 @@ Then to set up your development environment:
 
 ```terminal
 git clone https://github.com/hypothesis/cookiecutter-pypackage-test.git
-cd cookiecutter_pypackage_test
+cd cookiecutter-pypackage-test
 make help
 ```
 
