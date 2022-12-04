@@ -12,7 +12,9 @@
     "copyright_holder": "Hypothesis",
     "visibility": "private",
     "console_script": "yes",
+    "postgres": "yes",
     "dependabot_pip_interval": "monthly",
+    "__postgres_port": "5437",
     "__entry_point": "cookiecutter-pypackage-test",
     "__github_url": "https://github.com/hypothesis/cookiecutter-pypackage-test",
     "__pypi_url": "https://pypi.org/project/cookiecutter-pypackage-test"
