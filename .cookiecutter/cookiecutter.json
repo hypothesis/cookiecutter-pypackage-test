@@ -17,6 +17,7 @@
     "__postgres_port": "5437",
     "__entry_point": "cookiecutter-pypackage-test",
     "__github_url": "https://github.com/hypothesis/cookiecutter-pypackage-test",
-    "__pypi_url": "https://pypi.org/project/cookiecutter-pypackage-test"
+    "__pypi_url": "https://pypi.org/project/cookiecutter-pypackage-test",
+    "__copyright_year": "2022"
   }
 }
