@@ -1,27 +1,27 @@
-<a href="https://pypi.org/project/cookiecutter-pypackage-test"><img src="https://img.shields.io/pypi/v/cookiecutter-pypackage-test"></a>
+<a href="https://pypi.org/project/test-pypackage"><img src="https://img.shields.io/pypi/v/test-pypackage"></a>
 <a><img src="https://img.shields.io/badge/python-3.10 | 3.9 | 3.8 | 3.7-success"></a>
-<a href="https://github.com/hypothesis/cookiecutter-pypackage-test/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD--2--Clause-success"></a>
+<a href="https://github.com/hypothesis/test-pypackage/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD--2--Clause-success"></a>
 <a href="https://github.com/hypothesis/cookiecutters/tree/main/pypackage"><img src="https://img.shields.io/badge/cookiecutter-pypackage-success"></a>
 <a href="https://black.readthedocs.io/en/stable/"><img src="https://img.shields.io/badge/code%20style-black-000000"></a>
 
-# cookiecutter-pypackage-test
+# test-pypackage
 
 A test package for our pypackage cookiecutter.
 
 ## Installing
 
 We recommend using [pipx](https://pypa.github.io/pipx/) to install
-cookiecutter-pypackage-test.
+test-pypackage.
 First [install pipx](https://pypa.github.io/pipx/#install-pipx) then run:
 
 ```terminal
-pipx install cookiecutter-pypackage-test
+pipx install test-pypackage
 ```
 
-You now have cookiecutter-pypackage-test installed! For some help run:
+You now have test-pypackage installed! For some help run:
 
 ```
-cookiecutter-pypackage-test --help
+test-pypackage --help
 ```
 
 ## Upgrading
@@ -29,13 +29,13 @@ cookiecutter-pypackage-test --help
 To upgrade to the latest version run:
 
 ```terminal
-pipx upgrade cookiecutter-pypackage-test
+pipx upgrade test-pypackage
 ```
 
 To see what version you have run:
 
 ```terminal
-cookiecutter-pypackage-test --version
+test-pypackage --version
 ```
 
 ## Uninstalling
@@ -43,10 +43,10 @@ cookiecutter-pypackage-test --version
 To uninstall run:
 
 ```
-pipx uninstall cookiecutter-pypackage-test
+pipx uninstall test-pypackage
 ```
 
-## Setting up Your cookiecutter-pypackage-test Development Environment
+## Setting up Your test-pypackage Development Environment
 
 First you'll need to install:
 
@@ -67,8 +67,8 @@ First you'll need to install:
 Then to set up your development environment:
 
 ```terminal
-git clone https://github.com/hypothesis/cookiecutter-pypackage-test.git
-cd cookiecutter-pypackage-test
+git clone https://github.com/hypothesis/test-pypackage.git
+cd test-pypackage
 make services
 make help
 ```
@@ -77,15 +77,15 @@ make help
 
 1. First, to get PyPI publishing working you need to go to:
    <https://github.com/organizations/hypothesis/settings/secrets/actions/PYPI_TOKEN>
-   and add cookiecutter-pypackage-test to the `PYPI_TOKEN` secret's selected
+   and add test-pypackage to the `PYPI_TOKEN` secret's selected
    repositories.
 
-2. Now that the cookiecutter-pypackage-test project has access to the `PYPI_TOKEN` secret
+2. Now that the test-pypackage project has access to the `PYPI_TOKEN` secret
    you can release a new version by just [creating a new GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
    Publishing a new GitHub release will automatically trigger
    [a GitHub Actions workflow](.github/workflows/pypi.yml)
    that will build the new version of your Python package and upload it to
-   <https://pypi.org/project/cookiecutter-pypackage-test>.
+   <https://pypi.org/project/test-pypackage>.
 
 ## Changing the Project's Python Versions
 

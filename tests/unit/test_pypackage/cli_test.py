@@ -1,6 +1,6 @@
 import pytest
 
-from cookiecutter_pypackage_test.cli import cli
+from test_pypackage.cli import cli
 
 try:
     from importlib.metadata import version
@@ -22,5 +22,5 @@ def test_help():
 def test_version(capsys):
     exit_code = cli(["--version"])
 
-    assert capsys.readouterr().out.strip() == version("cookiecutter-pypackage-test")
+    assert capsys.readouterr().out.strip() == version("test-pypackage")
     assert not exit_code

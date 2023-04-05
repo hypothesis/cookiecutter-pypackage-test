@@ -2,10 +2,10 @@ from subprocess import run
 
 
 def test_help():
-    """Test the cookiecutter-pypackage-test --help command."""
-    run(["cookiecutter-pypackage-test", "--help"], check=True)
+    """Test the test-pypackage --help command."""
+    run(["test-pypackage", "--help"], check=True)
 
 
 def test_version():
-    """Test the cookiecutter-pypackage-test --version command."""
-    run(["cookiecutter-pypackage-test", "--version"], check=True)
+    """Test the test-pypackage --version command."""
+    run(["test-pypackage", "--version"], check=True)
