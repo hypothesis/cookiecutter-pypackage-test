@@ -104,4 +104,4 @@ clean:
 python:
 	@bin/make_python
 
--include cookiecutter_pypackage_test.mk
+-include test_pypackage.mk

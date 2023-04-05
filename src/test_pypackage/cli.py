@@ -13,5 +13,5 @@ def cli(_argv=None):  # pylint:disable=inconsistent-return-statements
     args = parser.parse_args(_argv)
 
     if args.version:
-        print(version("cookiecutter-pypackage-test"))
+        print(version("test-pypackage"))
         return 0

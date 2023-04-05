@@ -44,9 +44,9 @@ ignore = [
 [tool.coverage.run]
 branch = true
 parallel = true
-source = ["cookiecutter_pypackage_test", "tests/unit"]
+source = ["test_pypackage", "tests/unit"]
 omit = [
-    "*/cookiecutter_pypackage_test/__main__.py",
+    "*/test_pypackage/__main__.py",
 ]
 
 [tool.coverage.paths]
@@ -65,7 +65,7 @@ force_grid_wrap = 0
 use_parentheses = true
 line_length = 88
 default_section = "THIRDPARTY"
-known_first_party = ["cookiecutter_pypackage_test", "tests"]
+known_first_party = ["test_pypackage", "tests"]
 
 [tool.pylint.main]
 jobs = 0 # Use one process for CPU.
@@ -136,5 +136,5 @@ output-format = "colorized"
 score = "no"
 
 [tool.hdev]
-project_name = "cookiecutter-pypackage-test"
+project_name = "test-pypackage"
 project_type = "library"
