@@ -1,7 +1,7 @@
 {
   "template": "https://github.com/hypothesis/cookiecutters",
   "directory": "pypackage",
-  "ignore": [],
+  "ignore": ["tests/factories/*"],
   "extra_context": {
     "name": "test-pypackage",
     "package_name": "test_pypackage",
