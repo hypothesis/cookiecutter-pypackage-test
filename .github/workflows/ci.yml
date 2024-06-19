@@ -126,3 +126,5 @@ jobs:
       - run: tox -e functests
   Keepalive:
     uses: hypothesis/workflows/.github/workflows/keepalive.yml@main
+    with:
+      name: ci.yml
