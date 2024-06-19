@@ -127,4 +127,4 @@ jobs:
   Keepalive:
     uses: hypothesis/workflows/.github/workflows/keepalive.yml@main
     with:
-      name: ci.yml
+      workflow: ci.yml
