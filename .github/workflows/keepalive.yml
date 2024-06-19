@@ -8,4 +8,4 @@ jobs:
   Keepalive:
     uses: hypothesis/workflows/.github/workflows/keepalive.yml@main
     with:
-      workflow: ${{ github.event.workflow.name }}
+      workflow: ${{ github.event.workflow.path }}
