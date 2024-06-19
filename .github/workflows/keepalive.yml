@@ -1,0 +1,11 @@
+name: Keepalive
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+jobs:
+  Keepalive:
+    uses: hypothesis/workflows/.github/workflows/keepalive.yml@main
+    with:
+      workflow: ${{ github.event.workflow.id }}
