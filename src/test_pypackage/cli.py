@@ -2,12 +2,13 @@ from argparse import ArgumentParser
 from importlib.metadata import version
 
 
-def cli(_argv=None):  # pylint:disable=inconsistent-return-statements
+def cli(argv=None):
     parser = ArgumentParser()
-    parser.add_argument("-v", "--version", action="store_true")
+    parser.add_argument(
+        "-v",
+        "--version",
+        action="version",
+        version=version("test-pypackage"),
+    )
 
-    args = parser.parse_args(_argv)
-
-    if args.version:
-        print(version("test-pypackage"))
-        return 0
+    _args = parser.parse_args(argv)
