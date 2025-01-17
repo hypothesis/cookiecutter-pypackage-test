@@ -2,6 +2,30 @@
 requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
+[project]
+dynamic = ["version"]
+name = "test-pypackage"
+description = "A test package for our pypackage cookiecutter."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Developers",
+]
+requires-python = ">=3.8"
+dependencies = [
+  "sqlalchemy",
+  "psycopg2",
+]
+
+[project.urls]
+Repository = "https://github.com/hypothesis/test-pypackage"
+Issues = "https://github.com/hypothesis/test-pypackage/issues"
+Changelog = "https://github.com/hypothesis/test-pypackage/releases"
+
+[project.scripts]
+test-pypackage = "test_pypackage.cli:cli"
+
 [tool.setuptools_scm]
 
 [tool.pytest.ini_options]
