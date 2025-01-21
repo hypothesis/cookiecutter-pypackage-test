@@ -27,7 +27,6 @@ Changelog = "https://github.com/hypothesis/test-pypackage/releases"
 test-pypackage = "test_pypackage.cli:cli"
 
 [tool.setuptools_scm]
-
 [tool.pytest.ini_options]
 addopts = "-q"
 filterwarnings = [
